@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Proyecto para interaccion de los estudiantes de la fime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fime"
+  ],
+  "author": "Alfredo Rodriguez",
+  "license": "MIT"
+}
