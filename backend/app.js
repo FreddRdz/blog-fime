@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/api/subjects', require('./api/routes/subjectRoutes'));
+app.use('/api/teachers', require('./api/routes/teacherRoutes'));
 
 app.use(errorHandler);
 
