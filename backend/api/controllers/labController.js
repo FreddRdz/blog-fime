@@ -13,7 +13,7 @@ const setLab = asyncHandler(async (req, res) => {
     credits,
     unitSubject,
     classHours,
-    lab = null,
+    subject = null,
     teachers = null,
   } = req.body;
 
@@ -37,7 +37,7 @@ const setLab = asyncHandler(async (req, res) => {
       credits: credits,
       unitSubject: unitSubject,
       classHours: classHours,
-      lab: lab,
+      subject: subject,
       teachers: teachers,
     });
 
